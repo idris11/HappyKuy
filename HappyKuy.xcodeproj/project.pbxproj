@@ -13,6 +13,7 @@
 		09E3600C228D67720001188D /* HappyKuy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09E3600A228D67720001188D /* HappyKuy.xcdatamodeld */; };
 		09E3600E228D67730001188D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E3600D228D67730001188D /* Assets.xcassets */; };
 		09E36011228D67730001188D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E3600F228D67730001188D /* LaunchScreen.storyboard */; };
+		09E36019228D68FC0001188D /* ImageViewRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E36018228D68FC0001188D /* ImageViewRounded.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		09E3600D228D67730001188D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09E36010228D67730001188D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09E36012228D67730001188D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09E36018228D68FC0001188D /* ImageViewRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewRounded.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				09E3600F228D67730001188D /* LaunchScreen.storyboard */,
 				09E36012228D67730001188D /* Info.plist */,
 				09E3600A228D67720001188D /* HappyKuy.xcdatamodeld */,
+				09E36018228D68FC0001188D /* ImageViewRounded.swift */,
 			);
 			path = HappyKuy;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09E36019228D68FC0001188D /* ImageViewRounded.swift in Sources */,
 				09E36006228D67720001188D /* ViewController.swift in Sources */,
 				09E36004228D67720001188D /* AppDelegate.swift in Sources */,
 				09E3600C228D67720001188D /* HappyKuy.xcdatamodeld in Sources */,
@@ -287,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GUBR74QSP;
 				INFOPLIST_FILE = HappyKuy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GUBR74QSP;
 				INFOPLIST_FILE = HappyKuy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
