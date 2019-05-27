@@ -27,22 +27,6 @@
                                 <rect key="frame" x="172" y="635" width="70" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-clouds" translatesAutoresizingMaskIntoConstraints="NO" id="3Mk-Oy-xfQ">
-                                <rect key="frame" x="20" y="123" width="100" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-clouds" translatesAutoresizingMaskIntoConstraints="NO" id="myS-cS-yoO">
-                                <rect key="frame" x="294" y="198" width="100" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-clouds" translatesAutoresizingMaskIntoConstraints="NO" id="HUW-Bu-yLd">
-                                <rect key="frame" x="95" y="180" width="100" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-clouds" translatesAutoresizingMaskIntoConstraints="NO" id="rIa-hA-R8g">
-                                <rect key="frame" x="194" y="225" width="100" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -59,7 +43,6 @@
     </scenes>
     <resources>
         <image name="fireworks" width="66" height="130.5"/>
-        <image name="icons8-clouds" width="33" height="33"/>
         <image name="icons8-fire_element_filled" width="33" height="33"/>
     </resources>
 </document>

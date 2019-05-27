@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
+    var player:AVAudioPlayer!
     let emitterLayer = CAEmitterLayer()
     @IBOutlet weak var fire: ImageViewRounded!
     @IBOutlet weak var fireworks: UIImageView!
@@ -18,6 +20,18 @@ class ViewController: UIViewController {
         self.fire.isUserInteractionEnabled = true
         self.fire.addGestureRecognizer(tapGestureRecognizer)
         // Do any additional setup after loading the view.
+    }
+    
+    func playSound(){
+        let url = Bundle.main.url(forResource: "fireworks", withExtension: "mp3")
+        
+        do {
+            player = try AVAudioPlayer(contentsOf: url!)
+        } catch {
+            print(error)
+        }
+        
+        player.play()
     }
     
     func triggerToFireworks(){
@@ -35,6 +49,13 @@ class ViewController: UIViewController {
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
             self.setupBaseLayer()
             self.launchFireworks()
+            self.playSound()
+            DispatchQueue.main.asyncAfter(deadline: .now()+7, execute: {
+                self.emitterLayer.removeFromSuperlayer()
+                self.fireworks.alpha = 1
+                self.fireworks.frame.origin.y = 635
+                self.fire.alpha = 1
+            })
         }
     }
     
@@ -47,8 +68,7 @@ class ViewController: UIViewController {
         view.layer.addSublayer(emitterLayer)
     }
     
-    func launchFireworks()
-    {
+    func launchFireworks(){
         // Get particle image
         let particleImage = UIImage(named: "circle")?.cgImage
         

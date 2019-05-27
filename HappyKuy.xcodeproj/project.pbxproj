@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		096687A9229BA2FE006E6BC4 /* fireworks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 096687A8229BA2FE006E6BC4 /* fireworks.mp3 */; };
 		09E36004228D67720001188D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E36003228D67720001188D /* AppDelegate.swift */; };
 		09E36006228D67720001188D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E36005228D67720001188D /* ViewController.swift */; };
 		09E36009228D67720001188D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E36007228D67720001188D /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		096687A8229BA2FE006E6BC4 /* fireworks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = fireworks.mp3; path = ../../../Downloads/fireworks.mp3; sourceTree = "<group>"; };
 		09E36000228D67720001188D /* HappyKuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyKuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09E36003228D67720001188D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09E36005228D67720001188D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,9 +41,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		096687A7229BA29D006E6BC4 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				096687A8229BA2FE006E6BC4 /* fireworks.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
 		09E35FF7228D67720001188D = {
 			isa = PBXGroup;
 			children = (
+				096687A7229BA29D006E6BC4 /* sounds */,
 				09E36002228D67720001188D /* HappyKuy */,
 				09E36001228D67720001188D /* Products */,
 			);
@@ -131,6 +142,7 @@
 				09E36011228D67730001188D /* LaunchScreen.storyboard in Resources */,
 				09E3600E228D67730001188D /* Assets.xcassets in Resources */,
 				09E36009228D67720001188D /* Main.storyboard in Resources */,
+				096687A9229BA2FE006E6BC4 /* fireworks.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
